@@ -1,0 +1,4 @@
+compile:
+	@lex lexer.l
+	@yacc -d parser.y -v
+	@g++ -std=c++11 -g y.tab.c -ll -o icg

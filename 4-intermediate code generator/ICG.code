@@ -1,0 +1,13 @@
+0: fun2:
+1: arg s
+2: fun:
+3: arg a
+4: arg b
+5: arg c
+6: main:
+7: c = 5
+8: param c
+9: param 2
+10: param 5
+11: call fun
+12: exit
